@@ -1,12 +1,47 @@
-React Basics
+# GameHub
 
-A learning project for practicing core React + TypeScript concepts.
+A web application for browsing and discovering video games, with filtering by genre, platform, and sorting options. Data is powered by the RAWG Video Games Database API (rawg.io/apidocs).
 
-What's in the repo
-App.tsx — main component, demonstrates useState, conditional rendering, and updating an array of objects in state (a shopping cart).
-Button — a simple reusable button component with onClick and children props.
-Alert — a message component with a close button (onClose), styled with a CSS module.
-ExpandableText — a text component that truncates to maxChars characters and expands on "More/Less" click.
-Stack
+## Tech Stack
 
-React, TypeScript, CSS Modules
+- React + TypeScript
+- Vite
+- Chakra UI
+- Axios
+- RAWG API
+
+## Features
+
+- Browse games with posters, critic scores, and platform icons
+- Filter by genre and platform
+- Sort by relevance, release date, name, rating, etc.
+- Search games by title
+- Dark / light theme toggle
+
+## Getting Started
+
+**1. Clone the repository**
+
+git clone https://github.com/KovtoniukDiana/gamehub.git, then cd gamehub
+
+**2. Install dependencies**
+
+Run: npm install
+
+**3. Set up environment variables**
+
+Create a .env file in the project root and add: VITE_RAWG_API_KEY=your_api_key_here
+
+Get a free API key at rawg.io/apidocs.
+
+**4. Run the dev server**
+
+Run: npm run dev
+
+## Build
+
+Run: npm run build
+
+## License
+
+MIT
